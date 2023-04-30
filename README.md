@@ -1,17 +1,17 @@
 <h1>Role Challenge for Origin Health submitted by Neha HS(1BM19BT029)</h1>
 
 
-Project Summary
+<h2>Project Summary</h2>
 here we are creating a single page application (SPA) using Javascript and the framework used here is REACT. I have also used HTML and css for the front end part. Here a link was provided containing 12 images and the objective of this SPA is to display all these images in a carousel format and being able to label and filter them manually as a user.
 
 <h2>Features:</h2>
 <h3>1.	Login Page</h3>
 
-•	here the login page has two options: user and admin
+•	created a <b>login.jsx</b> that displays two options: user or admin to allow users to login their credentials accordingly.
 
-•	only when the correct credentials are entered you will be able to access the respective dashboards
+•	only when the correct credentials user can access the respective dashboards
 
-2.	User page
+<h3>2.	User page</h3>
 
 •	the user login details are neha and password is 123
 
