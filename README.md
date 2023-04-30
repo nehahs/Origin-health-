@@ -7,41 +7,38 @@ here we are creating a single page application (SPA) using Javascript and the fr
 <h2>Features:</h2>
 <h3>1.	Login Page</h3>
 
-•	created a <b>login.jsx</b> that displays two options: user or admin to allow users to login their credentials accordingly.
-
-•	only when the correct credentials user can access the respective dashboards
-
-<h3>2.	User page</h3>
-
-•	the user login details are neha and password is 123
-
-•	the user can label all the images from the options given by the admin and can also remove any label using the cross button
-
-•	the user can also filter out the images by using the filter option based on the labels which he has assigned to the images
-
-3.	Admin page
-
-•	here the login details are admin and password is 123
-
-•	in the admin dashboard you can manually enter the labels
-
-•	the admin has all the features as the user does except the one mentioned above
+<li>Created  <b>login.jsx</b> that displays two options: user or admin to allow users to login their credentials accordingly</li>
+<li>Only when the correct credentials user can access the respective dashboards</li>
 
 
-Installation 
-1.	In the project directory, open the command terminal
-2.	type npm install react-scripts: to download the react library
-3.	then type npm start: to Run the app in the development mode.
-4.	Open http://localhost:3000 to view it in your browser.
+Created  <b>Dashboard_admin.jsx</b> that displays dashboard for both admin and user based on which type user has chosen to login with. (User Dashboard cant view or access the input field for adding new labels)
+
+<h3>2.	User Dashboard Page</h3>
+
+<li>Page displays a carousel using <i>react-responsive-carousel</i> where the user can label all the images from the drop down list that contains the labels entered by the admin and can also remove any label for an image using the cross button</li>
+
+<li>Below the carousel, User can also filter out the images in a grid format by using the filter option based on the labels which user has assigned to the images</li>
+
+<h3>3. Admin page</h3>
+<li>the admin has all the features as the user</li>
+<li>In the admin dashboard you can also manually enter the labels.</li>
+<li>The labels are stored in a list <b>store.jsx</b> that is accessed by both dashboards to display the labels</li>
 
 
 
+<h2>Installation</h2>
+<ol type='1'>
+<li>In the project directory, open the command terminal</li>
+<li>type npm install react-scripts: to download the react library</li>
+<li>then type npm start: to Run the app in the development mode.</li>
+<li>Open http://localhost:3000 to view it in your browser.</li>
+</ol>
+<h3>Note:</h3> 
+<li>user login details are <i>neha</i> and password is 123</li>
+<li>admin login details are <i>admin</i> and password is 123</li>
 
 
-
-
-
-How To Use :
+<h2>How To Use :</h2>
 1)	This Is how the login page initially looks like once we run it. The dashboard has two login options namely admin and user. 
 <img width="960" alt="Screenshot 2023-04-30 155956" src="https://user-images.githubusercontent.com/131997438/235352269-0d2e98bf-9d9d-49f5-a790-6a782c5e04f1.png">
 
