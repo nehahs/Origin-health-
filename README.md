@@ -2,7 +2,7 @@ Role Challenge for Origin Health submitted by Neha HS(1BM19BT029)
 
 
 Project Summary
-here we are creating a single page application (SPA) using Javascript and the framework used here is REACT. Here a link was provided containing 12 images and the objective of this SPA is to display all these images in a carousel format and being able to label and filter them manually as a user.
+here we are creating a single page application (SPA) using Javascript and the framework used here is REACT. I have also used HTML and css for the front end part. Here a link was provided containing 12 images and the objective of this SPA is to display all these images in a carousel format and being able to label and filter them manually as a user.
 
 Features:
 1.	Login Page
